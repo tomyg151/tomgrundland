@@ -280,31 +280,37 @@ p span {
 .one p{
   font-size: 25px;
   color:#EEEEEE;
+  font-weight: 900;
 }
 
 .one h2{
   font-size: 30px;
   font-weight: 600;
   color:#EEEEEE;
+  position: absolute;
+  top: 8px;
 }
 
 /* card for project two */
 .two p{
   color:#fff8fa;
   font-size: 25px;
+  font-weight: 900;
 }
 
 .two h2{
   font-size: 30px;
   font-weight: 600;
   color:#fff8fa;
+  position: absolute;
+  top: 8px;
 }
 
 .two a{
   color:#fff8fa;
   font-size: 25px;
   text-decoration: none;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 
@@ -312,19 +318,22 @@ p span {
 .three p{
   color:#fff8fa;
   font-size: 25px;
+  font-weight: 900;
 }
 
 .three h2{
   font-size: 30px;
   font-weight: 600;
   color:#fff8fa;
+  position: absolute;
+  top: 8px;
 }
 
 .three a{
   color:#fff8fa;
   font-size: 25px;
   text-decoration: none;
-    font-weight: 600;
+  font-weight: 600;
 }
 
 
@@ -339,12 +348,15 @@ p span {
 .four p{
   font-size: 25px;
   color:#030303;
+  font-weight: 900;
 }
 
 .four h2{
   font-size: 30px;
   font-weight: 600;
   color:#000000;
+  position: absolute;
+  top: 8px;
 }
 
 /* card for project five */
@@ -358,6 +370,7 @@ p span {
 .five p{
   font-size: 25px;
   color:#EEEEEE;
+  font-weight: 900;
 }
 
 .five h2{
@@ -365,6 +378,8 @@ p span {
   font-size: 30px;
   font-weight: 600;
   color:#EEEEEE;
+  position: absolute;
+  top: 8px;
 }
 
 /* card for project six */
@@ -378,12 +393,15 @@ p span {
 .six p{
   font-size: 25px;
   color:#ffffff;
+  font-weight: 900;
 }
 
 .six h2{
   font-size: 30px;
   font-weight: 600;
   color:#ffffff;
+  position: absolute;
+  top: 8px;
 }
 
 /* card for project seven */
@@ -397,12 +415,15 @@ p span {
 .seven p{
   font-size: 25px;
   color:#ffffff;
+  font-weight: 900;
 }
 
 .seven h2{
   font-size: 30px;
   font-weight: 600;
   color:#ffffff;
+  position: absolute;
+  top: 8px;
 }
 
 
