@@ -272,25 +272,31 @@ p span {
 
 /* card for project one
 .one a{
-  color:#EEEEEE;
-  font-size: 25px;
+  color:#f8f8ff;
+  font-size: 23px;
   text-decoration: none;
-  font-weight: 900;
-  font-weight: bold;
+  font-weight: 600;
 }
 
+.one .padding-for-git{
+  padding-bottom: 5%;
+}
 
 .one p{
-  font-size: 25px;
-  color:#EEEEEE;
+  font-size: 18px;
+  color:#f8f8ff;
 }
 
 .one h2{
   font-size: 30px;
-  font-weight: 900;
-  color:#EEEEEE;
-  font-weight: bold;
-} */
+  font-weight: 600;
+  color:#f8f8ff;
+}*/
+
+
+
+
+
 
 
 /* card for project two */
@@ -312,6 +318,10 @@ p span {
   text-decoration: none;
   font-weight: 900;
   font-weight: bold;
+}
+
+.two .padding-for-git{
+  padding-bottom: 50%;
 }
 
 
@@ -338,7 +348,7 @@ p span {
 
 
 /* card for project four */
-.four p{
+/* .four p{
   color:#000000;
   font-size: 25px;
 }
@@ -356,7 +366,7 @@ p span {
   text-decoration: none;
   font-weight: 900;
   font-weight: bold;
-}
+} */
 
 /* card for project five */
 /* .five a{
@@ -904,7 +914,7 @@ animation-duration: 1.5s;
 }
 
 .card .innerp{
-  padding-top:3%;
+  padding-top:10%;
 }
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
