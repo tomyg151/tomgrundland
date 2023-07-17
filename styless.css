@@ -233,6 +233,7 @@ p span {
   padding-top: 1%;
   padding-bottom: 30px;
   font-size: 60px;
+
 }
 
 .testimonial-text {
@@ -266,10 +267,10 @@ p span {
 .carousel-caption{
   align-content: center;
   align-items: center;
-  padding-bottom: 8%;
+  padding-top: 8%;
 }
 
-/* card for project one */
+/* card for project one
 .one a{
   color:#EEEEEE;
   font-size: 25px;
@@ -289,7 +290,8 @@ p span {
   font-weight: 900;
   color:#EEEEEE;
   font-weight: bold;
-}
+} */
+
 
 /* card for project two */
 .two p{
@@ -314,7 +316,7 @@ p span {
 
 
 /* card for project three */
-.three p{
+/* .three p{
   color:#fff8fa;
   font-size: 25px;
 }
@@ -332,7 +334,7 @@ p span {
   text-decoration: none;
   font-weight: 900;
   font-weight: bold;
-}
+} */
 
 
 /* card for project four */
@@ -357,7 +359,7 @@ p span {
 }
 
 /* card for project five */
-.five a{
+/* .five a{
   color:#EEEEEE;
   font-size: 25px;
   text-decoration: none;
@@ -375,10 +377,10 @@ p span {
   font-size: 30px;
   font-weight: 900;
   color:#EEEEEE;
-}
+} */
 
 /* card for project six */
-.six p{
+/* .six p{
   color:#000000;
   font-size: 25px;
 }
@@ -396,10 +398,10 @@ p span {
   text-decoration: none;
   font-weight: 900;
   font-weight: bold;
-}
+} */
 
 /* card for project seven */
-.seven a{
+/* .seven a{
   color:#ffffff;
   font-size: 25px;
   text-decoration: none;
@@ -417,7 +419,7 @@ p span {
   font-weight: 900;
   color:#ffffff;
   font-weight: bold;
-}
+} */
 
 
 
@@ -902,7 +904,7 @@ animation-duration: 1.5s;
 }
 
 .card .innerp{
-  padding-top:15%;
+  padding-top:3%;
 }
 /* Do an horizontal flip when you move the mouse over the flip box container */
 .flip-card:hover .flip-card-inner {
@@ -1061,7 +1063,8 @@ animation-duration: 1.5s;
   }
 
   .carousel-caption{
-    padding-bottom: 4% !important;
+    padding-bottom: 5% !important;
+    /* padding-top: 5% !important; */
   }
 
   .icon-bar .icon-bar-nav{
@@ -1100,14 +1103,7 @@ animation-duration: 1.5s;
     margin-bottom: 3%;
   }
 
-  .one h2{
-    margin-top: 4%;
-    font-size: 50px;
-  }
 
-  .one p{
-    font-size: 22px;
-  }
 }
 
 
