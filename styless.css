@@ -249,9 +249,9 @@ p span {
 
 .carousel-item {
   /*padding: 7% 15%;*/
-  display: flex;
-  justify-content: center;
-  align-items: center;
+      display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .images-carousel{
@@ -586,9 +586,6 @@ p span {
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 
