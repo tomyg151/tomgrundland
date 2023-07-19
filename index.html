@@ -110,7 +110,7 @@
 
 <!-- About section -->
   <div class="" id="About">
-  <h1 class = "text-center typewrite whyme" data-period="2000" data-type='["Hello, my name is Tom Grundland","A little bit about me..."]'> <span class="wrap"></span></h1>
+  <h1 class = "text-center typewrite whyme" data-period="2000" data-type='["Hello, my name is Tom Grundland","A little bit about me...","Data Analyst","Python Developer"]'> <span class="wrap"></span></h1>
   </div>
   <!-- Image row -->
   <div class="image-section" style="display: flex; justify-content: center; align-items: center;">
@@ -130,6 +130,21 @@
                   </div>
                           <div class="flip-card-back">
                             <p class="innerp-data">Detail-oriented and results-driven Information Systems graduate with hands-on experience in data analytics, looking to apply my strong analytical skills, technical abilities, and passion for uncovering insights from data in a challenging data analytics role.</p>
+                          </div>
+              </div>
+          </div>
+        </div>
+            <!-- Text column developer-->
+            <div class="outer delay-0">
+            <div class="flip-card card">
+              <div class="flip-card-inner ">
+                  <div class="col-lg-4 col-md-12 col-sm-12 benefits delay-0 flip-card-front">
+                    <i class="fa-brands fa-python fa-4x" style="color: rgb(118, 138, 197)"></i>
+                      <h3 class="feature-title">Python Developr</h3>
+                      <p>Pandas | TKinter | SMTplib | NumPy | PyGame | Selenium | Beautiful Soup.</p>
+                  </div>
+                          <div class="flip-card-back">
+                            <p class="innerp-data">As a Python developer, I am experienced in managing data, including cleaning, transforming, and visualizing data. I have experience using APIs and libraries such as Pandas, TKinter, SMTPlib, NumPy, PyGame, Selenium, and Beautiful Soup.</p>
                           </div>
               </div>
           </div>
@@ -230,7 +245,7 @@
         <img src="img/HR Analytics Dashboard.png" class="images-carousel" alt="slide-img-1">
         <div class="carousel-caption two">
         <h2>"HR Analytics Dashboard"</h2>
-        <p class="padding-for-git">Built an Excel and Tableau-based dashboard for comprehensive employment detail analysis.</p>
+        <p class="padding-for-git">Built and Designed an Excel and Tableau-based dashboard for comprehensive employment detail analysis.</p>
           <a href="https://public.tableau.com/app/profile/tom3837/viz/HRANALYSTICS_16760399740540/HRANALYTICSDASHBORD" target="_blank">Link to the project</a>
         </div>
       </div>
@@ -238,13 +253,13 @@
         <img src="img/Revenue Details dashboard.png" class="images-carousel" alt="slide-img-2">
         <div class="carousel-caption two">
           <h2 >Music store revenue dashboard</h2>
-          <p class="padding-for-git">Developed a dynamic dashboard using Metabase and SQL to strategically plan music festival locations based on revenue data.</p>
+          <p class="padding-for-git">Designed and Developed a dynamic dashboard using Metabase and SQL to strategically plan music festival locations based on revenue data.</p>
           <a href="https://datadrivenanalyst.herokuapp.com/public/dashboard/e735140d-a933-4cd8-8c02-c0850a8e81d6" target="_blank">Link to the project</a>
         </div>
       </div>
       <div class="carousel-item">
         <img src="img/web Analytics Dashboaard.png" class="images-carousel" alt="slide-img-3">
-        <div class="carousel-caption two">
+        <div class="carousel-caption two1">
           <h2>Web analysis dashboard</h2>
           <p>Leveraged Tableau and Excel to create a dynamic dashboard, providing in-depth user data analysis.</p>
           <a href="https://public.tableau.com/app/profile/tom3837/viz/WebAnalysisFinaleProject/Dashboard2" target="_blank">Link to the project</a>
@@ -462,7 +477,7 @@ var TxtType = function(el, toRotate, period) {
         var fullTxt = this.toRotate[i];
 
         if (this.isDeleting) {
-          if(this.loopNum === 1) { //stop after the last sentence, if add need to change the num
+          if(this.loopNum === 0.1) { //stop after the last sentence, if add need to change the num
             return;
           }
         this.txt = fullTxt.substring(0, this.txt.length - 1);

@@ -320,6 +320,26 @@ p span {
   font-weight: bold;
 }
 
+/* card for project two1 */
+.two1 p{
+  color:#000000;
+  font-size: 25px;
+}
+
+.two1 h2{
+  font-size: 30px;
+  font-weight: 900;
+  color:#000000;
+  font-weight: bold;
+}
+
+.two1 a{
+  color:#000000;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 900;
+  font-weight: bold;
+}
 
 
 
