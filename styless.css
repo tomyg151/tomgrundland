@@ -288,7 +288,7 @@ p span {
 
 
 .two1{
-  background-color: rgba(5, 1, 1, 0.2); 
+  background-color: rgba(141, 138, 138, 0.2); 
   color: #000000;
   border-radius: 15px;
   max-width: 90%;
@@ -298,7 +298,7 @@ p span {
 
 
 .two3{
-  background-color: rgba(70, 68, 68, 0.2); 
+  background-color: rgba(2, 2, 2, 0.2); 
   border-radius: 8px;
   padding: 8px 12px; /* smaller padding for tighter fit */
   display: inline-block; /* make the background hug the content */
