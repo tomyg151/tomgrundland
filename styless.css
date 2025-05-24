@@ -296,6 +296,27 @@ p span {
   bottom: 24px;
 }
 
+
+.two3{
+  background-color: rgba(70, 68, 68, 0.2); 
+  border-radius: 8px;
+  padding: 8px 12px; /* smaller padding for tighter fit */
+  display: inline-block; /* make the background hug the content */
+  max-width: 90%; /* prevent overflow */
+  backdrop-filter: blur(4px); /* optional, for smooth background effect */
+  margin: auto;
+  bottom: 38px;
+}
+
+
+.two3 a{
+    color:#ffffff;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 900;
+  font-weight: bold;
+}
+
 .two1 a{
   color:#000000;
   font-size: 25px;
